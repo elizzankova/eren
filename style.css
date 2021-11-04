@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Header=========================*/
+
+.head{
+    height: 100vh;
+    background: url(\img/1.jpg) center no-repeat;
+
+}
+/*Gl =========================*/
+
+.gl{
+    margin-top: 50px;
+    height: 100vh;
+}
+.gl_photo{
+    width: 45%;
+}
+.gl__photo{
+    height: 90vh;
+    transition: .3s ease-out;
+}
+.gl__photo:hover{
+    transform: scale(1.2);
+}
+.gl_info{
+    display: flex;
+}
+.gl_text{
+    padding-top: 130px;
+    color: black;
+    text-align: inherit;
+    font-weight: 300;
+    margin: 0 auto;
+}
+.gl_zag{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.gl_mes{
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+/*gif===============================*/
+
+.gif {
+    background: url(img/1.gif) center center no-repeat;
+    padding: 350px 0 40px 0;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+  }
+
+  /*About ===============================*/
+
+.about{
+    height: 100vh;
+}
+.about_info{
+    display: flex;
+}
+.about_text{
+    width: 40%;
+    padding-top: 100px;
+    color: black;
+    text-align: inherit;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.about_ph{
+    height: 95vh;
+    margin: 0;
+    border-radius: 640px;
+    transition: .3s ease-out;
+}
+.about_txt{
+    font-size: 20px;
+    font-weight: 100;
+}
+.about_ph:hover{
+    transform: scale(1.2);
+}
+
+/*Connections===========================*/
+.connections{
+    height: 100vh;
+    
+}
+.cont{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.characters{
+    display: flex;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+.mikasa{
+    width: 25%;
+    
+    
+}
+.armin{
+    width: 25%;
+}
+.grisha{
+    width: 25%;
+}
+.zeke{
+    width: 25%;
+}
+.characters img{
+transition: .3s ease-out;
+}
+.characters img:hover{
+    transform: scale(1.2);
+}
+.char_h{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+.char_t{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 15px;
+    text-align: initial;
+}
